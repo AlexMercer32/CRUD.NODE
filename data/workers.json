@@ -1,0 +1,37 @@
+[{
+  "id": "1",
+  "firstName": "Tcvetcov",
+  "lastName": "Andrei",
+  "skill": "middle"
+},
+{
+  "id": "2",
+  "firstName": "Ponomariov",
+  "lastName": "Mihail",
+  "skill": "high"
+},
+{
+  "id": "3",
+  "firstName": "Moiseenco",
+  "lastName": "Dmitrii",
+  "skill": "low"
+},
+{
+  "id": "4",
+  "firstName": "Zubko",
+  "lastName": "Vitalii",
+  "skill": "high"
+},
+{
+  "id": "5",
+  "firstName": "Pisari",
+  "lastName": "Yurii",
+  "skill": "middle"
+},
+{
+  "id": "6",
+  "firstName": "Afanasiev",
+  "lastName": "Ivan",
+  "skill": "low"
+}
+  ]
