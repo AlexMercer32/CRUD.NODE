@@ -1,12 +1,18 @@
 const mongoose = require('mongoose');
 
-const connectDB = async () => {
-   const conn = await mongoose.connect(process.env.MONGO_URI,{
-      useNewUrlParser : true,
-      useCreateIndex : true,
-      useFindAndModify : false,
-      useUnifiedTopology : true
+
+
+
+import mongoose from 'mongoose';
+const { Schema } = mongoose;
+
+const blogSchema = new Schema({
+id: Number,
+firstName: String,
+   lastName: String,
+enum:[
+    'high',
+    'middle',
+    'low'
+]
    });
-   console.log(`MongoDB Connected:${conn.connection.host}`);
-}
-module.exports = connectDB();
